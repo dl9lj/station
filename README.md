@@ -1,6 +1,9 @@
 # station
 station accessory with arduino ethernet
 
+#### GUI
+![J13](pics/gui.png)
+
 #### Arduino Box
 ![J13](pics/Box_front.jpg)
 
