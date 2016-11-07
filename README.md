@@ -1,5 +1,5 @@
 # station
-station accessory with arduino ethernet
+station control with arduino ethernet
 
 Arduino Ethernet Box with Python GUI for station remote control.
 
@@ -29,12 +29,13 @@ I have installed the following packages:
 sudo apt-get install python-wxgtk2.8
 sudo apt-get install python-wxgtk3.0
 
-There are no discrete values at level meter. The level shall only shows 
+There are no discrete values at level meter. The level shall only show 
 that power goes out and hopefully nothing comes back. The Python tool 
 calculates from FWD and REF the SWR level. Sometimes there is some delay
 between pressing PTT and showing the output power - in that case it 
 often helps to start the Python tool again.
-In case of high REF values the antenna can be tuned via the antenna tuner.
+In case of high REF values the antenna can be tuned via the antenna tuner
+control buttons.
    
 
 #### Arduino Box
