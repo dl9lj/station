@@ -7,7 +7,7 @@
  compiled with Arduino 2:1.0.5+dfsg2-4 running on 
  ubuntu 16.04 LTS (64Bit)
 
- created 10 Jul 2016
+ created 11 Jul 2016
  by Andreas Rix (DL9LJ)
 
  */
