@@ -36,13 +36,15 @@ between pressing PTT and showing the output power - in that case it
 often helps to start the Python tool again.
 In case of high REF values the antenna can be tuned via the antenna tuner
 control buttons.
-   
+
+#### Station
+![J13](pics/Station.jpg)
 
 #### Arduino Box
 ![J13](pics/Box_front.jpg)
 
 Top
-red: FWD, white: REF, 3.5mm: Tune
+red: FWD, 3.5mm: Tune, white: REF
 
 Bottom
 RJ45:Lan, 3.5mm: Band, 2.1mm: 12V-Supply
@@ -89,6 +91,13 @@ the Arduino.
 
 Small PCB details - I have used an LT1014 - any other dual amp can be 
 used.
+
+#### PTT Box
+![PIC3](pics/PTT_front.jpg)
+
+#### PTT Box
+![PIC3](pics/PTT_back.jpg)
+
 
 
 Andreas (DL9LJ) - November 2016
