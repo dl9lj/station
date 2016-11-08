@@ -20,6 +20,12 @@ with sending ":" (";" turns the station off).
 
 The Python gui will work on Linux and Windows Computers. 
 
+#### Station
+![J13](pics/Station.jpg)
+
+This picture shows the Icom Transceiver with Red Pitaya, Antenna Tuner,
+Arduino Box, PTT Box and Power Supply 
+
 #### GUI
 ![J13](pics/gui.png)
 
@@ -36,9 +42,6 @@ between pressing PTT and showing the output power - in that case it
 often helps to start the Python tool again.
 In case of high REF values the antenna can be tuned via the antenna tuner
 control buttons.
-
-#### Station
-![J13](pics/Station.jpg)
 
 #### Arduino Box
 ![J13](pics/Box_front.jpg)
@@ -95,9 +98,12 @@ used.
 #### PTT Box
 ![PIC3](pics/PTT_front.jpg)
 
+MTA: Logic Level input, 3.5mm: Relais output, 2.1mm: 12V-Supply
+
 #### PTT Box
 ![PIC3](pics/PTT_back.jpg)
 
+USB: 5V Output for Red Pitaya / Hermes Lite Supply
 
 
 Andreas (DL9LJ) - November 2016
