@@ -15,10 +15,9 @@ be switched on and off via the Arduino. When using Red Pitaya, the band
 selection will be directly controlled from the Red Pitaya. When using
 Hermes Lite the Arduino can also do the band selection. The Arduino will
 be supplied with an 12V Power Supply which is alway connected to mains.
-Now the station can be turned on via the Python GUI or from any UDP sender 
-with sending ":" (";" turns the station off).
 
-The Python gui will work on Linux and Windows Computers. 
+The Python gui will work on Linux and Windows Computers. The repository 
+contains schematics and code.
 
 #### Station
 ![J13](pics/Station.jpg)
@@ -42,6 +41,12 @@ between pressing PTT and showing the output power - in that case it
 often helps to start the Python tool again.
 In case of high REF values the antenna can be tuned via the antenna tuner
 control buttons.
+
+#### UDP
+![J13](pics/UDP.png)
+
+The station can be turned on via the Python GUI or from any UDP sender 
+with sending ":" (";" turns the station off).
 
 #### Arduino Box
 ![J13](pics/Box_front.jpg)
@@ -85,7 +90,7 @@ connector.
 
 shows the modification inside the antenna tuner. I have placed an small
 PCB with the driver opamp between microcontroller and socket. So I have
-all required signals available (5V, GND, ADC inputs for FWD and REF).
+all required signals available (5V, GND, FWD- and REF signal).
 The opamp will be used to drive FWD and REF signals over the cable to 
 the Arduino.  
 
@@ -93,7 +98,7 @@ the Arduino.
 ![PIC3](pics/AT200_detail.jpg)
 
 Small PCB details - I have used an LT1014 - any other dual amp can be 
-used.
+used (e.g. LM324).
 
 #### PTT Box
 ![PIC3](pics/PTT_front.jpg)
@@ -105,6 +110,8 @@ MTA: Logic Level input, 3.5mm: Relais output, 2.1mm: 12V-Supply
 
 USB: 5V Output for Red Pitaya / Hermes Lite Supply
 
+Because HAM radio Power Rail is 12V the PTT Box contains a DC/DC 
+converter (12V to 5V). Now everything runs on 12V.
 
 Andreas (DL9LJ) - November 2016
 
