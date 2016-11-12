@@ -324,7 +324,6 @@ F 3 "" H 2150 3750 50  0000 C CNN
 	1    2150 3750
 	-1   0    0    1   
 $EndComp
-NoConn ~ 5200 3450
 Wire Wire Line
 	1550 3050 1550 2950
 Wire Wire Line
@@ -398,4 +397,8 @@ Wire Wire Line
 	1350 3800 1950 3800
 Wire Wire Line
 	1950 3800 1950 3350
+Text Notes 1450 4100 0    60   ~ 0
+not used - but keep them calm...
+Text Notes 5150 11050 0    60   ~ 0
+DL9LJ / November 2016
 $EndSCHEMATC
