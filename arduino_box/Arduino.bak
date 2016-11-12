@@ -397,7 +397,7 @@ F 3 "" H 2750 4150 50  0000 C CNN
 $EndComp
 NoConn ~ 2800 3950
 Text Notes 1250 3450 0    60   ~ 0
-Arduino
+Arduino Ethernet
 NoConn ~ 1200 3050
 NoConn ~ 1300 3050
 NoConn ~ 1400 3050

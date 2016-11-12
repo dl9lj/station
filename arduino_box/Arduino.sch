@@ -724,8 +724,6 @@ Wire Wire Line
 	6700 2400 7000 2400
 Wire Wire Line
 	4450 2400 6400 2400
-Text Notes 7400 2550 0    60   ~ 0
-Remote
 Wire Wire Line
 	5100 6000 5100 5950
 Connection ~ 3700 5550
@@ -737,4 +735,8 @@ Text Notes 600  4850 0    60   ~ 0
 FWD
 Text Notes 600  3900 0    60   ~ 0
 12V
+Text Notes 7400 2550 0    60   ~ 0
+Band
+Text Notes 5000 11050 0    60   ~ 0
+DL9LJ - November 2016
 $EndSCHEMATC
