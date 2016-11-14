@@ -57,10 +57,11 @@ with sending ":" (";" turns the station off).
 #### Arduino Box
 ![J13](pics/Box_front.jpg)
 
-Top (from left to right)
-FWD, Tune, REF
+from left to right ...
+Top
+REF, Tune, FWD
 
-Bottom (from left to right)
+Bottom
 Lan, Band, 12V-Supply
 
 #### Arduino Box
@@ -85,8 +86,8 @@ LDG AT200Pro
 The antenna tuner can be controlled via the Radio connector. Connecting 
 GND and the middle terminal of the 3.5mm jack works like the tuner button
 on the front:
-Bypass function: connection < 1s
-Memory function: connection 1 to 3s
+Bypass function: connection < 1s, 
+Memory function: connection 1 to 3s, 
 Tuner  function: connection > 3s
 
 #### Antenna Tuner
@@ -116,7 +117,7 @@ used (e.g. LM324).
 ![PIC3](pics/PTT_front.jpg)
 
 from left to right ...
-Logic Level input, Relais output, 12V-Supply
+Logic Level input, PTT output, 12V-Supply
 
 #### PTT Box
 ![PIC3](pics/PTT_back.jpg)
