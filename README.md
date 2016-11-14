@@ -25,6 +25,12 @@ contains schematics and code.
 This picture shows the Icom Transceiver with Red Pitaya, Antenna Tuner,
 Arduino Box, PTT Box and Power Supply 
 
+
+#### Desktop
+![J13](pics/desktop.png)
+
+This is the desktop with quisk and station control.
+
 #### GUI
 ![J13](pics/gui.png)
 
@@ -51,11 +57,11 @@ with sending ":" (";" turns the station off).
 #### Arduino Box
 ![J13](pics/Box_front.jpg)
 
-Top
-red: FWD, 3.5mm: Tune, white: REF
+Top (from left to right)
+FWD, Tune, REF
 
-Bottom
-RJ45:Lan, 3.5mm: Band, 2.1mm: 12V-Supply
+Bottom (from left to right)
+Lan, Band, 12V-Supply
 
 #### Arduino Box
 ![J18](pics/Box_back.jpg)
@@ -76,6 +82,12 @@ Board.
 
 LDG AT200Pro
 
+The antenna tuner can be controlled via the Radio connector. Connecting 
+GND and the middle terminal of the 3.5mm jack works like the tuner button
+on the front:
+Bypass function: connection < 1s
+Memory function: connection 1 to 3s
+Tuner  function: connection > 3s
 
 #### Antenna Tuner
 ![PIC3](pics/AT200_back.jpg)
@@ -103,12 +115,13 @@ used (e.g. LM324).
 #### PTT Box
 ![PIC3](pics/PTT_front.jpg)
 
-MTA: Logic Level input, 3.5mm: Relais output, 2.1mm: 12V-Supply
+from left to right ...
+Logic Level input, Relais output, 12V-Supply
 
 #### PTT Box
 ![PIC3](pics/PTT_back.jpg)
 
-USB: 5V Output for Red Pitaya / Hermes Lite Supply
+5V Output for Red Pitaya / Hermes Lite Supply
 
 Because HAM radio Power Rail is 12V the PTT Box contains a DC/DC 
 converter (12V to 5V). Now everything runs on 12V.
